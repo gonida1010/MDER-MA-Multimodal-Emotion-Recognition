@@ -52,7 +52,7 @@ DEFAULT_DATA_CONFIG = {
     'num_classes': 4,
     'white_thresh': 250,                     # 흰색 판정 임계값 (0~255)
     'white_ratio': 0.05,                     # 이 비율 초과 시 제거
-    'balance_classes': True,                 # 최소 클래스 수에 맞춰 언더샘플링
+    'balance_classes': False,                # class_weights로 균형 처리 (언더샘플링 비활성)
 }
 
 
